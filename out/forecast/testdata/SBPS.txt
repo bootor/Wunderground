@@ -1,0 +1,940 @@
+{
+    "forecast": {
+        "simpleforecast": {
+            "forecastday": [
+                {
+                    "avehumidity": 66,
+                    "avewind": {
+                        "degrees": 44,
+                        "dir": "NE",
+                        "kph": 27,
+                        "mph": 17
+                    },
+                    "conditions": "Chance of a Thunderstorm",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 26,
+                        "epoch": "1451167200",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 12,
+                        "monthname": "December",
+                        "monthname_short": "Dec",
+                        "pretty": "8:00 PM BRST on December 26, 2015",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Saturday",
+                        "weekday_short": "Sat",
+                        "yday": 359,
+                        "year": 2015
+                    },
+                    "high": {
+                        "celsius": "29",
+                        "fahrenheit": "85"
+                    },
+                    "icon": "chancetstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+                    "low": {
+                        "celsius": "23",
+                        "fahrenheit": "73"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 44,
+                        "dir": "NE",
+                        "kph": 40,
+                        "mph": 25
+                    },
+                    "minhumidity": 0,
+                    "period": 1,
+                    "pop": 50,
+                    "qpf_allday": {
+                        "in": 0.04,
+                        "mm": 1
+                    },
+                    "qpf_day": {
+                        "in": 0.03,
+                        "mm": 1
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 68,
+                    "avewind": {
+                        "degrees": 47,
+                        "dir": "NE",
+                        "kph": 27,
+                        "mph": 17
+                    },
+                    "conditions": "Clear",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 27,
+                        "epoch": "1451253600",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 12,
+                        "monthname": "December",
+                        "monthname_short": "Dec",
+                        "pretty": "8:00 PM BRST on December 27, 2015",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Sunday",
+                        "weekday_short": "Sun",
+                        "yday": 360,
+                        "year": 2015
+                    },
+                    "high": {
+                        "celsius": "30",
+                        "fahrenheit": "86"
+                    },
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "low": {
+                        "celsius": "22",
+                        "fahrenheit": "72"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 47,
+                        "dir": "NE",
+                        "kph": 40,
+                        "mph": 25
+                    },
+                    "minhumidity": 0,
+                    "period": 2,
+                    "pop": 0,
+                    "qpf_allday": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 70,
+                    "avewind": {
+                        "degrees": 57,
+                        "dir": "ENE",
+                        "kph": 26,
+                        "mph": 16
+                    },
+                    "conditions": "Clear",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 28,
+                        "epoch": "1451340000",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 12,
+                        "monthname": "December",
+                        "monthname_short": "Dec",
+                        "pretty": "8:00 PM BRST on December 28, 2015",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Monday",
+                        "weekday_short": "Mon",
+                        "yday": 361,
+                        "year": 2015
+                    },
+                    "high": {
+                        "celsius": "29",
+                        "fahrenheit": "85"
+                    },
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "low": {
+                        "celsius": "23",
+                        "fahrenheit": "73"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 57,
+                        "dir": "ENE",
+                        "kph": 32,
+                        "mph": 20
+                    },
+                    "minhumidity": 0,
+                    "period": 3,
+                    "pop": 20,
+                    "qpf_allday": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 72,
+                    "avewind": {
+                        "degrees": 56,
+                        "dir": "NE",
+                        "kph": 26,
+                        "mph": 16
+                    },
+                    "conditions": "Chance of a Thunderstorm",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 29,
+                        "epoch": "1451426400",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 12,
+                        "monthname": "December",
+                        "monthname_short": "Dec",
+                        "pretty": "8:00 PM BRST on December 29, 2015",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Tuesday",
+                        "weekday_short": "Tue",
+                        "yday": 362,
+                        "year": 2015
+                    },
+                    "high": {
+                        "celsius": "30",
+                        "fahrenheit": "86"
+                    },
+                    "icon": "chancetstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+                    "low": {
+                        "celsius": "23",
+                        "fahrenheit": "73"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 56,
+                        "dir": "NE",
+                        "kph": 32,
+                        "mph": 20
+                    },
+                    "minhumidity": 0,
+                    "period": 4,
+                    "pop": 30,
+                    "qpf_allday": {
+                        "in": 0.01,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.01,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 70,
+                    "avewind": {
+                        "degrees": 70,
+                        "dir": "ENE",
+                        "kph": 23,
+                        "mph": 14
+                    },
+                    "conditions": "Partly Cloudy",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 30,
+                        "epoch": "1451512800",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 12,
+                        "monthname": "December",
+                        "monthname_short": "Dec",
+                        "pretty": "8:00 PM BRST on December 30, 2015",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Wednesday",
+                        "weekday_short": "Wed",
+                        "yday": 363,
+                        "year": 2015
+                    },
+                    "high": {
+                        "celsius": "30",
+                        "fahrenheit": "86"
+                    },
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "low": {
+                        "celsius": "22",
+                        "fahrenheit": "72"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 70,
+                        "dir": "ENE",
+                        "kph": 32,
+                        "mph": 20
+                    },
+                    "minhumidity": 0,
+                    "period": 5,
+                    "pop": 10,
+                    "qpf_allday": {
+                        "in": 0.02,
+                        "mm": 1
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.02,
+                        "mm": 1
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 71,
+                    "avewind": {
+                        "degrees": 58,
+                        "dir": "ENE",
+                        "kph": 24,
+                        "mph": 15
+                    },
+                    "conditions": "Partly Cloudy",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 31,
+                        "epoch": "1451599200",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 12,
+                        "monthname": "December",
+                        "monthname_short": "Dec",
+                        "pretty": "8:00 PM BRST on December 31, 2015",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Thursday",
+                        "weekday_short": "Thu",
+                        "yday": 364,
+                        "year": 2015
+                    },
+                    "high": {
+                        "celsius": "29",
+                        "fahrenheit": "85"
+                    },
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "low": {
+                        "celsius": "22",
+                        "fahrenheit": "72"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 58,
+                        "dir": "ENE",
+                        "kph": 32,
+                        "mph": 20
+                    },
+                    "minhumidity": 0,
+                    "period": 6,
+                    "pop": 20,
+                    "qpf_allday": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 65,
+                    "avewind": {
+                        "degrees": 51,
+                        "dir": "NE",
+                        "kph": 29,
+                        "mph": 18
+                    },
+                    "conditions": "Clear",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 1,
+                        "epoch": "1451685600",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 1,
+                        "monthname": "January",
+                        "monthname_short": "Jan",
+                        "pretty": "8:00 PM BRST on January 01, 2016",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Friday",
+                        "weekday_short": "Fri",
+                        "yday": 0,
+                        "year": 2016
+                    },
+                    "high": {
+                        "celsius": "31",
+                        "fahrenheit": "87"
+                    },
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "low": {
+                        "celsius": "22",
+                        "fahrenheit": "72"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 51,
+                        "dir": "NE",
+                        "kph": 40,
+                        "mph": 25
+                    },
+                    "minhumidity": 0,
+                    "period": 7,
+                    "pop": 10,
+                    "qpf_allday": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 66,
+                    "avewind": {
+                        "degrees": 41,
+                        "dir": "NE",
+                        "kph": 31,
+                        "mph": 19
+                    },
+                    "conditions": "Clear",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 2,
+                        "epoch": "1451772000",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 1,
+                        "monthname": "January",
+                        "monthname_short": "Jan",
+                        "pretty": "8:00 PM BRST on January 02, 2016",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Saturday",
+                        "weekday_short": "Sat",
+                        "yday": 1,
+                        "year": 2016
+                    },
+                    "high": {
+                        "celsius": "31",
+                        "fahrenheit": "88"
+                    },
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "low": {
+                        "celsius": "23",
+                        "fahrenheit": "73"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 41,
+                        "dir": "NE",
+                        "kph": 40,
+                        "mph": 25
+                    },
+                    "minhumidity": 0,
+                    "period": 8,
+                    "pop": 10,
+                    "qpf_allday": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 68,
+                    "avewind": {
+                        "degrees": 40,
+                        "dir": "NE",
+                        "kph": 32,
+                        "mph": 20
+                    },
+                    "conditions": "Partly Cloudy",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 3,
+                        "epoch": "1451858400",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 1,
+                        "monthname": "January",
+                        "monthname_short": "Jan",
+                        "pretty": "8:00 PM BRST on January 03, 2016",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Sunday",
+                        "weekday_short": "Sun",
+                        "yday": 2,
+                        "year": 2016
+                    },
+                    "high": {
+                        "celsius": "31",
+                        "fahrenheit": "87"
+                    },
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "low": {
+                        "celsius": "23",
+                        "fahrenheit": "73"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 40,
+                        "dir": "NE",
+                        "kph": 48,
+                        "mph": 30
+                    },
+                    "minhumidity": 0,
+                    "period": 9,
+                    "pop": 10,
+                    "qpf_allday": {
+                        "in": 0.04,
+                        "mm": 1
+                    },
+                    "qpf_day": {
+                        "in": 0.0,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.04,
+                        "mm": 1
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                },
+                {
+                    "avehumidity": 71,
+                    "avewind": {
+                        "degrees": 44,
+                        "dir": "NE",
+                        "kph": 29,
+                        "mph": 18
+                    },
+                    "conditions": "Chance of a Thunderstorm",
+                    "date": {
+                        "ampm": "PM",
+                        "day": 4,
+                        "epoch": "1451944800",
+                        "hour": 20,
+                        "isdst": "1",
+                        "min": "00",
+                        "month": 1,
+                        "monthname": "January",
+                        "monthname_short": "Jan",
+                        "pretty": "8:00 PM BRST on January 04, 2016",
+                        "sec": 0,
+                        "tz_long": "America/Sao_Paulo",
+                        "tz_short": "BRST",
+                        "weekday": "Monday",
+                        "weekday_short": "Mon",
+                        "yday": 3,
+                        "year": 2016
+                    },
+                    "high": {
+                        "celsius": "29",
+                        "fahrenheit": "85"
+                    },
+                    "icon": "chancetstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+                    "low": {
+                        "celsius": "23",
+                        "fahrenheit": "73"
+                    },
+                    "maxhumidity": 0,
+                    "maxwind": {
+                        "degrees": 44,
+                        "dir": "NE",
+                        "kph": 40,
+                        "mph": 25
+                    },
+                    "minhumidity": 0,
+                    "period": 10,
+                    "pop": 50,
+                    "qpf_allday": {
+                        "in": 0.12,
+                        "mm": 3
+                    },
+                    "qpf_day": {
+                        "in": 0.07,
+                        "mm": 2
+                    },
+                    "qpf_night": {
+                        "in": 0.06,
+                        "mm": 2
+                    },
+                    "skyicon": "",
+                    "snow_allday": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_day": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    },
+                    "snow_night": {
+                        "cm": 0.0,
+                        "in": 0.0
+                    }
+                }
+            ]
+        },
+        "txt_forecast": {
+            "date": "10:35 AM BRST",
+            "forecastday": [
+                {
+                    "fcttext": "Variable clouds with thunderstorms, especially this morning. High around 85F. Winds NE at 15 to 25 mph. Chance of rain 50%.",
+                    "fcttext_metric": "Variable clouds and windy with scattered thunderstorms. High 31C. Winds NE at 30 to 50 km/h. Chance of rain 50%.",
+                    "icon": "chancetstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+                    "period": 0,
+                    "pop": "50",
+                    "title": "Saturday"
+                },
+                {
+                    "fcttext": "Mostly clear. Low 73F. Winds NNE at 10 to 15 mph.",
+                    "fcttext_metric": "Generally clear skies. Low 23C. Winds NNE at 15 to 25 km/h.",
+                    "icon": "nt_clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+                    "period": 1,
+                    "pop": "10",
+                    "title": "Saturday Night"
+                },
+                {
+                    "fcttext": "A few clouds from time to time. High 86F. Winds NE at 15 to 25 mph.",
+                    "fcttext_metric": "Mostly sunny skies. High near 30C. Winds NE at 25 to 40 km/h.",
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "period": 2,
+                    "pop": "0",
+                    "title": "Sunday"
+                },
+                {
+                    "fcttext": "A few clouds. Low 72F. Winds NNE at 5 to 10 mph.",
+                    "fcttext_metric": "A few clouds. Low 22C. Winds NNE at 10 to 15 km/h.",
+                    "icon": "nt_partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+                    "period": 3,
+                    "pop": "10",
+                    "title": "Sunday Night"
+                },
+                {
+                    "fcttext": "A few passing clouds, otherwise generally sunny. High around 85F. Winds ENE at 10 to 20 mph.",
+                    "fcttext_metric": "Sun and a few passing clouds. High around 30C. Winds ENE at 15 to 30 km/h.",
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "period": 4,
+                    "pop": "20",
+                    "title": "Monday"
+                },
+                {
+                    "fcttext": "Mostly clear skies. Low 73F. Winds NE at 5 to 10 mph.",
+                    "fcttext_metric": "Clear skies with a few passing clouds. Low 23C. Winds NE at 10 to 15 km/h.",
+                    "icon": "nt_clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+                    "period": 5,
+                    "pop": "20",
+                    "title": "Monday Night"
+                },
+                {
+                    "fcttext": "Widely scattered showers or a thunderstorm early. Then partly cloudy. High 86F. Winds NE at 10 to 20 mph. Chance of rain 30%.",
+                    "fcttext_metric": "Isolated thunderstorms in the morning, then partly cloudy late. High around 30C. Winds NE at 15 to 30 km/h. Chance of rain 30%.",
+                    "icon": "chancetstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+                    "period": 6,
+                    "pop": "30",
+                    "title": "Tuesday"
+                },
+                {
+                    "fcttext": "A few clouds from time to time. Low 73F. Winds NE at 5 to 10 mph.",
+                    "fcttext_metric": "A few clouds from time to time. Low 23C. Winds NE at 10 to 15 km/h.",
+                    "icon": "nt_partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+                    "period": 7,
+                    "pop": "20",
+                    "title": "Tuesday Night"
+                },
+                {
+                    "fcttext": "Partly cloudy skies. High 86F. Winds ENE at 10 to 20 mph.",
+                    "fcttext_metric": "Partly cloudy. High around 30C. Winds ENE at 15 to 30 km/h.",
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "period": 8,
+                    "pop": "10",
+                    "title": "Wednesday"
+                },
+                {
+                    "fcttext": "Partial cloudiness early, with scattered showers and thunderstorms later during the night. Low 72F. Winds NE at 5 to 10 mph. Chance of rain 60%.",
+                    "fcttext_metric": "Partly cloudy skies early. Scattered thunderstorms developing later at night. Low 22C. Winds NE at 10 to 15 km/h. Chance of rain 60%.",
+                    "icon": "nt_tstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+                    "period": 9,
+                    "pop": "60",
+                    "title": "Wednesday Night"
+                },
+                {
+                    "fcttext": "Partly cloudy skies. High around 85F. Winds ENE at 10 to 20 mph.",
+                    "fcttext_metric": "Some clouds in the morning will give way to mainly sunny skies for the afternoon. High around 30C. Winds ENE at 15 to 30 km/h.",
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "period": 10,
+                    "pop": "20",
+                    "title": "Thursday"
+                },
+                {
+                    "fcttext": "A mostly clear sky. Low 72F. Winds NNE at 5 to 10 mph.",
+                    "fcttext_metric": "A mostly clear sky. Low 22C. Winds NNE at 10 to 15 km/h.",
+                    "icon": "nt_clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+                    "period": 11,
+                    "pop": "20",
+                    "title": "Thursday Night"
+                },
+                {
+                    "fcttext": "Sunny. High 87F. Winds NE at 15 to 25 mph.",
+                    "fcttext_metric": "Mainly sunny. High 31C. Winds NE at 25 to 40 km/h.",
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "period": 12,
+                    "pop": "10",
+                    "title": "Friday"
+                },
+                {
+                    "fcttext": "A mostly clear sky. Low 72F. Winds NNE at 10 to 15 mph.",
+                    "fcttext_metric": "Mostly clear. Low 22C. Winds NNE at 15 to 25 km/h.",
+                    "icon": "nt_clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+                    "period": 13,
+                    "pop": "10",
+                    "title": "Friday Night"
+                },
+                {
+                    "fcttext": "Sun and a few passing clouds. High 88F. Winds NE at 15 to 25 mph.",
+                    "fcttext_metric": "Sun and a few passing clouds. High 31C. Winds NE at 25 to 40 km/h.",
+                    "icon": "clear",
+                    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+                    "period": 14,
+                    "pop": "10",
+                    "title": "Saturday"
+                },
+                {
+                    "fcttext": "A few clouds from time to time. Low 73F. Winds NNE at 10 to 15 mph.",
+                    "fcttext_metric": "A few clouds from time to time. Low 23C. Winds NNE at 15 to 25 km/h.",
+                    "icon": "nt_partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+                    "period": 15,
+                    "pop": "20",
+                    "title": "Saturday Night"
+                },
+                {
+                    "fcttext": "Wind increasing. A few clouds from time to time. High 87F. Winds NE at 20 to 30 mph.",
+                    "fcttext_metric": "Partly cloudy skies, with gusty winds developing during the afternoon. High around 30C. Winds NE at 25 to 40 km/h.",
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "period": 16,
+                    "pop": "10",
+                    "title": "Sunday"
+                },
+                {
+                    "fcttext": "Partial cloudiness early, with scattered showers and thunderstorms later during the night. Low 73F. Winds NNE at 10 to 20 mph. Chance of rain 60%.",
+                    "fcttext_metric": "Partly cloudy skies early. Scattered thunderstorms developing later at night. Low 23C. Winds NNE at 15 to 30 km/h. Chance of rain 60%.",
+                    "icon": "nt_tstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+                    "period": 17,
+                    "pop": "60",
+                    "title": "Sunday Night"
+                },
+                {
+                    "fcttext": "Mixed clouds and sun with scattered thunderstorms. High around 85F. Winds NE at 15 to 25 mph. Chance of rain 50%.",
+                    "fcttext_metric": "Variable clouds with scattered thunderstorms. High around 30C. Winds NE at 25 to 40 km/h. Chance of rain 50%.",
+                    "icon": "chancetstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+                    "period": 18,
+                    "pop": "50",
+                    "title": "Monday"
+                },
+                {
+                    "fcttext": "Mostly cloudy skies early followed by thunderstorms late. Low 73F. Winds NNE at 10 to 15 mph. Chance of rain 80%.",
+                    "fcttext_metric": "Mostly cloudy in the evening, then thunderstorms developing after midnight. Low 23C. Winds NNE at 15 to 25 km/h. Chance of rain 80%.",
+                    "icon": "nt_tstorms",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+                    "period": 19,
+                    "pop": "80",
+                    "title": "Monday Night"
+                }
+            ]
+        }
+    },
+    "response": {
+        "features": {
+            "forecast10day": 1
+        },
+        "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+        "version": "0.1"
+    }
+}

@@ -1,0 +1,21 @@
+Country;State;Airport;ICAO;Link;Lattitude;Longitude
+Brazil;Minas Gerais;Vitoria da Conquista;SBQV;;-14.86;-40.86
+Brazil;Minas Gerais;Ilheus;SBIL;http://www.wunderground.com/global/stations/83349.html;-14.82;-39.03
+Brazil;Minas Gerais;Porto Seguro;SBPS;http://www.wunderground.com/global/stations/83460.html;-16.44;-39.08
+Brazil;Minas Gerais;Montes Claros;SBMK;http://www.wunderground.com/global/stations/83437.html;-16.71;-43.82
+Brazil;Minas Gerais;Usiminas;SBIP;http://www.wunderground.com/global/stations/WSBIP.html;-19.49;-42.53
+Brazil;Minas Gerais;Confins;SBCF;http://www.wunderground.com/global/stations/83566.html;-19.64;-43.97
+Brazil;Minas Gerais;Barbacena;SBBQ;http://www.wunderground.com/global/stations/83689.html;-21.23;-43.81
+Brazil;Minas Gerais;Alfenas;SBPC;http://www.wunderground.com/global/stations/83644.html;-21.43;-45.94
+Brazil;Minas Gerais;Pocos De Caldas;SBUR;http://www.wunderground.com/global/stations/83576.html;-21.837;-46.566
+Brazil;Minas Gerais;Uberlandia;SBUL;http://www.wunderground.com/global/stations/83525.html;-18.88;-48.23
+Brazil;Minas Gerais;Pampulha;SBBH;http://www.wunderground.com/global/stations/83583.html;-19.852;-43.951
+Brazil;Minas Gerais;Guaratingueta;SBGW;http://www.wunderground.com/global/stations/83708.html;-22.791;-45.204
+Brazil;Espirito Santo;Vitoria Aeroporto;SBVT;http://www.wunderground.com/global/stations/83649.html;-20.260;-40.291
+Brazil;Sao Paulo;Guarulhos;SBGR;http://www.wunderground.com/global/stations/83075.html;-23.43;-46.47 
+Brazil;Sao Paulo;Congonhas International ;SBSP;http://www.wunderground.com/global/stations/83780.html;-23.625;-46.656
+Brazil;Sao Paulo;Sao Jose Dos Campos;SBSJ;http://www.wunderground.com/global/stations/83809.html;-23.228;-45.871
+Brazil;Sao Paulo;Marte;SBMT;http://www.wunderground.com/global/stations/83779.html;-23.507;-46.634
+Brazil;Sao Paulo;Bauru;SBBU;http://www.wunderground.com/global/stations/83722.html;-22.343;-49.054
+Brazil;Sao Paulo;Marilia;SBML;http://www.wunderground.com/global/stations/WSBML.html;-22.195;-49.926
+Brazil;Sao Paulo;Aracatuba;SBAU;http://www.wunderground.com/global/stations/WSBAU.html;-21.144;-50.426
