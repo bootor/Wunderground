@@ -62,10 +62,10 @@ for country in adata:
 
         _writer = csv.writer(open(SUMSTATESPATH + country.replace(' ', '_') + '-' + state.replace(' ', '_') + '.csv' , 'w'), delimiter=';', lineterminator='\n')
         for idx in range(len(date)):
-            maxt = '__.__'
-            mint = '__.__'
-            hum = '__.__'
-            prec = '__.__'
+            maxt = '_-.-_'
+            mint = '_-.-_'
+            hum = '_-.-_'
+            prec = '_-.-_'
             if len(maxtemp[date[idx]]) > 0:
                 maxt = '{:.2f}'.format(sum(maxtemp[date[idx]]) / len(maxtemp[date[idx]]))
             if len(mintemp[date[idx]]) > 0:
