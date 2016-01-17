@@ -44,13 +44,18 @@ def saveforecast(path, adata, key):
             for ican in adata[country][state]:
                 try:
                     outlist = get_forecast(path, key, ican)
+                    outhist = open(path + 'history/' + ican + '_' + outlist[0][0] + '.csv', 'w')
                     outfile = open(path + ican + '.csv', 'w')
                     if len(outlist) > 0:
                         for idx in range(len(outlist)):
                             outfile.write(outlist[idx][0] + ';' + \
                                           str(outlist[idx][1]) + ';' + \
                                           str(outlist[idx][2]) + '\n')
+                            outhist.write(outlist[idx][0] + ';' + \
+                                          str(outlist[idx][1]) + ';' + \
+                                          str(outlist[idx][2]) + '\n')
                     outfile.close()
+                    outhist.close()
                     print(ican + ' is done.')
                 except:
                     print(ican + ': data is not available.')
@@ -59,6 +64,6 @@ def saveforecast(path, adata, key):
 if __name__ == '__main__':
     import loadairports
     import key, os
-    adata = loadairports.load_airports()
-    key = key.get_key()
+    adata = loadairports.load_airports('../data/stations.csv')
+    key = key.get_key('../data/stations.csv')
     saveforecast(os.getcwd() + '/../out/forecast/', adata, key)
