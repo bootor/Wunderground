@@ -29,12 +29,13 @@ def get_forecast(path, key, ican):
         forecast10day = parsed_json['forecast']['simpleforecast']['forecastday']
         for idx in range(len(forecast10day)):
             avghumidity = int(forecast10day[idx]['avehumidity'])
-            avgtemp = (int(forecast10day[idx]['high']['celsius']) + \
-                       int(forecast10day[idx]['low']['celsius'])) // 2
+            maxtemp = int(forecast10day[idx]['high']['celsius'])
+            mintemp = int(forecast10day[idx]['low']['celsius'])
             date = str(forecast10day[idx]['date']['year']) + '-' + \
                    str(forecast10day[idx]['date']['month']) + '-' + \
                    str(forecast10day[idx]['date']['day'])
-            outlist.append([date, avgtemp, avghumidity])
+            precip = float(forecast10day[idx]['qpf_allday']['mm'])
+            outlist.append([date, maxtemp, mintemp, avghumidity, precip])
     return outlist
 
 
@@ -50,10 +51,14 @@ def saveforecast(path, adata, key):
                         for idx in range(len(outlist)):
                             outfile.write(outlist[idx][0] + ';' + \
                                           str(outlist[idx][1]) + ';' + \
-                                          str(outlist[idx][2]) + '\n')
+                                          str(outlist[idx][2]) + ';' + \
+                                          str(outlist[idx][3]) + ';' + \
+                                          str(outlist[idx][4]) + '\n')
                             outhist.write(outlist[idx][0] + ';' + \
                                           str(outlist[idx][1]) + ';' + \
-                                          str(outlist[idx][2]) + '\n')
+                                          str(outlist[idx][2]) + ';' + \
+                                          str(outlist[idx][3]) + ';' + \
+                                          str(outlist[idx][4]) + '\n')
                     outfile.close()
                     outhist.close()
                     print(ican + ' is done.')
