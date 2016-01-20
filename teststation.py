@@ -2,7 +2,7 @@
 
 
 from include import forecast, key
-import history, os
+import load_history, os
 
 ICAO = 'SBBT'
 KEYPATH = os.getcwd() + '/data/key.txt'
@@ -16,7 +16,7 @@ print('Forecast:')
 print(fc)
 print('History:')
 for year in range(2010, 2016, 5):
-    hist = history.getmonthhistory(ICAO, year, 1)
+    hist = load_history.getmonthhistory(ICAO, year, 1)
     count = len(hist)
     nt = 0
     nh = 0

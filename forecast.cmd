@@ -1,4 +1,4 @@
 @ECHO OFF
 g:
 cd "\PythonProjects\Wunderground\"
-python forecast.py
+python load_forecast.py

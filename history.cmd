@@ -1,5 +1,5 @@
 @ECHO OFF
 g:
 cd "\PythonProjects\Wunderground\"
-python history.py
-python sumstates.py
+python load_history.py
+python calc_sumstates.py
