@@ -64,15 +64,14 @@ for country in adata:
         for idx in range(len(date)):
             maxt = '__.__'
             mint = '__.__'
+            t = '__.__'
             hum = '__.__'
             prec = '__.__'
-            if len(maxtemp[date[idx]]) > 0:
-                maxt = '{:.2f}'.format(sum(maxtemp[date[idx]]) / len(maxtemp[date[idx]]))
-            if len(mintemp[date[idx]]) > 0:
-                mint = '{:.2f}'.format(sum(mintemp[date[idx]]) / len(mintemp[date[idx]]))
+            if len(maxtemp[date[idx]]) > 0 and len(mintemp[date[idx]]) > 0:
+                t = '{:.2f}'.format((sum(maxtemp[date[idx]]) / len(maxtemp[date[idx]]) + sum(mintemp[date[idx]]) / len(mintemp[date[idx]])) / 2.0)
             if len(humidity[date[idx]]) > 0:
                 hum = '{:.2f}'.format(sum(humidity[date[idx]]) / len(humidity[date[idx]]))
             if len(precip[date[idx]]) > 0:
                 prec = '{:.2f}'.format(sum(precip[date[idx]]) / len(precip[date[idx]]))
-            outrow = [date[idx], maxt, mint, hum, prec]
+            outrow = [date[idx], t, hum, prec]
             _writer.writerow(outrow)
