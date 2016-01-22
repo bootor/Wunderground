@@ -4,7 +4,7 @@
 from include import loadairports
 import os, csv
 
-CONFIGPATH = os.getcwd() + '/data/config.txt'
+CONFIGPATH = os.getcwd() + '/data/hddcdd.txt'
 STATIONSPATH = os.getcwd() + '/data/stations.csv'
 SUMSTATESPATH = os.getcwd() + '/out/sumstates/'
 
